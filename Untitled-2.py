@@ -1,9 +1,10 @@
-y = int(input("Quantos euros deseja converter?\n"))
-print("Qual moeda deseja converter:\n[0] Real Brasileiro\n[1] Bath Tailandês")
-x = input("Escolha sua opção")
-if x ==0:
-    y*6.34
-    print("Isso lhe dará", y)
+ordenado = float(input("Qual é o seu ordenado atual?"))
+if ordenado < 500:
+   reajuste = 15
+   print("O seu ordenado reajustado é de", ordenado*reajuste/100)
+elif ordenado <= 1000:
+   reajuste = 10
+   print("O seu ordenado reajustado é de", ordenado*reajuste/100)
 else:
-    y*37.91
-    print("Isso lhe dará", y)
+   reajuste = 5
+   print("O seu ordenado reajustado é de", ordenado*reajuste/100)
