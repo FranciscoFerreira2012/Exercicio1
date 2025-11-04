@@ -7,5 +7,4 @@ elif velocidade>80:
     mensagem = "Estás acima do limite permitido. A multa foi gerada no valor de {} euros".format(velocidadeExcesso)
 else:
     mensagem = "Está dentro do limite. Boa viagem!"
-print(mensagem)    
-
+print(mensagem)
