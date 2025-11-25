@@ -1,16 +1,18 @@
 def Soma():
-    return primeiroValor + segundoValor
+    resultado = primeiroValor + segundoValor
+    return resultado
 
 def Subtração():
-    return primeiroValor - segundoValor
-
+    resultado = primeiroValor - segundoValor
+    return resultado
 
 def Divisão():
-    return primeiroValor / segundoValor
-
+    resultado = primeiroValor / segundoValor
+    return resultado
 
 def Multiplicação():
-    return primeiroValor * segundoValor
+    resultado = primeiroValor * segundoValor
+    return resultado
 
 def Cabecalho(texto):
     print()
